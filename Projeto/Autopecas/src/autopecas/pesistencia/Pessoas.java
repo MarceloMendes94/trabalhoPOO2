@@ -1,5 +1,13 @@
 package autopecas.pesistencia;
 
 public class Pessoas {
-    /*aqui eu registro funcionarios*/
+    
+    
+    public void cadastrarCliente(){
+        
+    }
+    
+    public void cadastarFuncionario(){
+        
+    }
 }

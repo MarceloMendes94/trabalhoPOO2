@@ -8,9 +8,8 @@ import autopecas.modelo.Rotor;
 
 public class FabricaProdutos {
     /*anemico*/
-   public FabricaProdutos(int numeroPeca, String altura, String largura, String comprimento,
-                          String diamentroInterno, String diamentroExterno, float valor, float amperagem,
-                          float voltagem, int qte_polos, int qte_sulcos,String nome,  String numeroOEM, String nomeProduto ){
+   public FabricaProdutos(int numeroPeca, String altura, String largura, String comprimento, String diamentroInterno, String diamentroExterno, float valor, float amperagem, float voltagem, int qte_polos, int qte_sulcos,String nome,  String numeroOEM, String nomeProduto ){
+    
     if(nomeProduto.equals("bobina")){
         Bobina bobina = new Bobina(numeroPeca,altura, largura, comprimento, diamentroInterno, diamentroExterno, valor, amperagem, voltagem, qte_polos, nome,numeroOEM);
     }
