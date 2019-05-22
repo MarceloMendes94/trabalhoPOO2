@@ -3,8 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/marcelo/Documentos/trabalhoPOO2/Projeto/Autopecas/src/autopecas/Autopecas.java</file>
-            <file>file:/home/marcelo/Documentos/trabalhoPOO2/Projeto/Autopecas/src/autopecas/pesistencia/ConnFactory.java</file>
+            <file>file:/home/marcelo/Documentos/trabalhoPOO2/Projeto/Autopecas/src/autopecas/modelo/design_parttens/DiretorCliente.java</file>
+            <file>file:/home/marcelo/Documentos/trabalhoPOO2/Projeto/Autopecas/src/autopecas/modelo/design_parttens/BuilderCliente.java</file>
+            <file>file:/home/marcelo/Documentos/trabalhoPOO2/Projeto/Autopecas/src/autopecas/modelo/Cliente.java</file>
         </group>
     </open-files>
 </project-private>
