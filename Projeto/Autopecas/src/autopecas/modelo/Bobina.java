@@ -1,8 +1,5 @@
 package autopecas.modelo;
-
-
-
-public class Bobina extends Produto {
+public class Bobina extends Produto{
     int qte_polos;
 
     public int getQte_polos() {
@@ -25,5 +22,5 @@ public class Bobina extends Produto {
         super.setVoltagem(voltagem);
         setQte_polos(qte_polos);
     }
-
+   
 }
