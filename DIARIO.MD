@@ -20,3 +20,9 @@ Uma descrição breve das atividades feitas, por quem foi feita e o dia que foi 
 |apilcação do metodo fábrica dentro do projeto na parte de cadastro de produtos e atualização da documentação por marcelo mendes|07/04/2019| 
 |validado com o professor felipe o modelo do padrão fábrica e feito alterações sugeridas por ele |10/04/2019|
 |projeto da persistentcia feito por david villaça, foi feito um mockup por ewerson, projeto detalhado e criação da do dominio com POO em PHP por marcelo|17/04/2019|
+|separação dos repositórios de POO2 e projeto de sistemas|08/05/2019|
+|elaboração do modelo da adequação no astah para Padrão BUILDER|15/05/2019|
+|adequação da criação de clinetes ao padrão BUILDER|16/05/2019|
+|elaboração do modelo da adequação no astah para o padrão DAO|21/05/2019|
+|adequação da conexão ao banco de dados ao padrão DAO|22/05/2019|
+|preparação dos slides para apresentação 3|28/05/2019|
