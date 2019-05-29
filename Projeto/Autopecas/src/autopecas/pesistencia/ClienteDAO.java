@@ -9,4 +9,5 @@ public class ClienteDAO extends BaseDAO{
         dados=select(query);
         System.out.println(dados);
     }
+ 
 }

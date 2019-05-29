@@ -1,16 +1,19 @@
 package autopecas.pesistencia;
 
+import autopecas.modelo.Rolamento;
 import java.util.ArrayList;
 
 public class RolamentoDAO extends BaseDAO {
-        String query="SELECT numeropeca, valor, altura,"
-            + "largura, comprimento, diamentro_interno,"
-            + "diamentro_externo, amperagem, voltagem, qte_sulcos,"
-            + "qte_polos, fk_fabricante, fk_tipo_produto"
-            +"FROM public.produto  WHERE  fk_tipo_produto==4;";
+    
+    ArrayList<Rolamento>  lista_rolamento= new ArrayList<Rolamento> ();
+    public RolamentoDAO(){
+    }
+     public void inserirUm(){
         
-        public RolamentoDAO(){
-            ArrayList<String> dados= new ArrayList<String>() ;
-            dados=select(query);
-        }
+    }
+    public void carregarTodos(){
+        String query="SELECT numeropeca, valor, altura,largura, comprimento, diamentro_interno,diamentro_externo, amperagem, voltagem, qte_sulcos, qte_polos, fk_fabricante, fk_tipo_produto FROM public.produto  WHERE  fk_tipo_produto==4;";
+        ArrayList<String> dados= new ArrayList<String>() ;
+        dados=select(query);
+    }
 }
