@@ -4,9 +4,9 @@
 3. DAO
 
 ## Padrão Fábrica
-``` explicação ``` <br>
-
+```Centralização de criação de objetos filhos de produto``` <br>
 ![fabrica](/imagens/padraofabrica.jpg)
+```Código``` <br>
 
 ## Padrão Builder
 ``` Para criar um objeto do tipo cliente é muito complexo  cliente herda de Pessoa por sua vez possui um CPF possui um cartão e endereço.``` <br>

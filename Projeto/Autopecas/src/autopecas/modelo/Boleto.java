@@ -10,6 +10,23 @@ package autopecas.modelo;
  * @author marcelo
  */
 public class Boleto {
-    float valor;
-    String codigo_barra;
+    private float valor;
+    private String codigo_barra;
+
+    public float getValor() {
+        return valor;
+    }
+
+    public void setValor(float valor) {
+        this.valor = valor;
+    }
+
+    public String getCodigo_barra() {
+        return codigo_barra;
+    }
+
+    public void setCodigo_barra(String codigo_barra) {
+        this.codigo_barra = codigo_barra;
+    }
+    
 }
