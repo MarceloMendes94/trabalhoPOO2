@@ -26,3 +26,4 @@ Uma descrição breve das atividades feitas, por quem foi feita e o dia que foi 
 |elaboração do modelo da adequação no astah para o padrão DAO|21/05/2019|
 |adequação da conexão ao banco de dados ao padrão DAO|22/05/2019|
 |preparação dos slides para apresentação 3|28/05/2019|
+|Adição de um documento com padrões, imagens dos 3 padrões já implementados.|03/06/2019|
