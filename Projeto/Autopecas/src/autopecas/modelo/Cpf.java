@@ -1,10 +1,10 @@
 package autopecas.modelo;
 
 public class Cpf {
-    int primeiro;
-    int segundo;
-    int terceiro;
-    int verificador;
+    private int primeiro;
+    private int segundo;
+    private int terceiro;
+    private int verificador;
 
     public Cpf(int primeiro, int segundo, int terceiro, int verificador) {
         this.primeiro = primeiro;
