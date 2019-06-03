@@ -3,7 +3,7 @@ package autopecas.modelo.design_parttens;
 import java.util.Date;
 
 public class DiretorCliente {
-    BuilderCliente cliente = new BuilderCliente();
+    private  BuilderCliente cliente = new BuilderCliente();
     public DiretorCliente(int primeiro, int segundo, int terceiro, int verificador,String logradouro, String cep, String numero, String complemento, String referencia,String numeroc, String nomeTitular, Date vencimento, String Bandeira,String email, String nome, Date nascimento){
     // criar um CPF
     cliente.criarCpf( primeiro,  segundo,  terceiro, verificador);
