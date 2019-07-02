@@ -1,4 +1,7 @@
 # Trabalho da  disciplina de Poo2 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d3932938461e475db17700a3760ae5d7)](https://app.codacy.com/app/MarceloMendes94/trabalhoPOO2?utm_source=github.com&utm_medium=referral&utm_content=MarceloMendes94/trabalhoPOO2&utm_campaign=Badge_Grade_Settings)
+
 ## e-commerce de auto-peças
 
 # Documento de requisitos
