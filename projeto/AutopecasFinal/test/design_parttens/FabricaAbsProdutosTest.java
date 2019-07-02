@@ -16,20 +16,10 @@ import static org.junit.Assert.*;
  */
 public class FabricaAbsProdutosTest {
     
-    FabricaAbsProdutos fabAbsProd;
-    Fabricante fab ;
-    Produto prod;    
-    
-    public FabricaAbsProdutosTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
+    private FabricaAbsProdutos fabAbsProd;
+    private Fabricante fab ;
+    private Produto prod;    
+
     
     @Before
     public void setUp() {
@@ -38,10 +28,6 @@ public class FabricaAbsProdutosTest {
         fabAbsProd = new FabricaAbsProdutos();
         fabAbsProd.criarFabricante("borsh", "001");
         fabAbsProd.criarProduto("50 mm", "50 mm", "70mm", "20 mm", "50", 0, 0, 0, fabAbsProd.getFabricante(), TipoProduto.BOBINA);
-    }
-    
-    @After
-    public void tearDown() {
     }
 
     /**

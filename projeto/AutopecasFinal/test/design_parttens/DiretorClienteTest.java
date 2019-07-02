@@ -19,26 +19,12 @@ import static org.junit.Assert.*;
 public class DiretorClienteTest {
     
     DiretorCliente dc; 
-    public DiretorClienteTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
+   
     @Before
     public void setUp() {
         dc= new DiretorCliente(147, 306, 837, 14, "banana@email.com", "12345" , "minha rua", 29106080, "33", "casa", "esquina", "marcelo mendes", 01, 06, 1994);
     }
     
-    @After
-    public void tearDown() {
-    }
-
     /**
      * Test of getBuildercliente method, of class DiretorCliente.
      */
@@ -51,7 +37,6 @@ public class DiretorClienteTest {
         Cliente cliente = new Cliente(end, nasc, "marcelo mendes", cpf, user);
         
         assertEquals(cliente.getClass(), dc.getBuildercliente().getCliente().getClass());
-        
         
     }
     

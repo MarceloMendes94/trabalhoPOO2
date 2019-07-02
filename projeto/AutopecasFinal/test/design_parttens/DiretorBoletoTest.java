@@ -21,19 +21,11 @@ import static org.junit.Assert.*;
 public class DiretorBoletoTest {
     
     private DiretorBoleto diretorboleto;
-    
-    public DiretorBoletoTest() {
-    }
-
-    
+        
     @Before
     public void setUp() {
         diretorboleto = new DiretorBoleto("00123781", "3007", "sicoob", "04", 50.00f , "00123781300704");
     }
-
-    /**
-     * Test of getBb method, of class DiretorBoleto.
-     */
     @Test
     public void testGetBb() {
         Boleto boleto;

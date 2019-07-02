@@ -14,26 +14,11 @@ import static org.junit.Assert.*;
 public class ClienteDAOTest {
     
     ClienteDAO clienteDao;
-    public ClienteDAOTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
+
     @Before
     public void setUp() {
         clienteDao= new ClienteDAO();
     }
-    
-    @After
-    public void tearDown() {
-    }
-
     /**
      * Test of find method, of class ClienteDAO.
      */
@@ -47,43 +32,5 @@ public class ClienteDAOTest {
         assertEquals(clienteDao.find().get(0).getClass(), cliente.getClass());
     }
 
-    /**
-     * Test of insert method, of class ClienteDAO.
-     */
-    @Test
-    public void testInsert() {
-       
-    }
-
-    /**
-     * Test of update method, of class ClienteDAO.
-     */
-    @Test
-    public void testUpdate() {
-        
-    }
-
-    /**
-     * Test of delete method, of class ClienteDAO.
-     */
-    @Test
-    public void testDelete() {
-      
-    }
-
-    /**
-     * Test of transform method, of class ClienteDAO.
-     */
-    @Test
-    public void testTransform() {
-        
-    }
-
-    /**
-     * Test of parseCliente method, of class ClienteDAO.
-     */
-    @Test
-    public void testParseCliente() {
-    }
     
 }
