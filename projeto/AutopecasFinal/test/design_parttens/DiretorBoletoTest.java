@@ -20,26 +20,15 @@ import static org.junit.Assert.*;
  */
 public class DiretorBoletoTest {
     
-    DiretorBoleto diretorboleto;
+    private DiretorBoleto diretorboleto;
     
     public DiretorBoletoTest() {
     }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
+
     
     @Before
     public void setUp() {
         diretorboleto = new DiretorBoleto("00123781", "3007", "sicoob", "04", 50.00f , "00123781300704");
-    }
-    
-    @After
-    public void tearDown() {
     }
 
     /**
