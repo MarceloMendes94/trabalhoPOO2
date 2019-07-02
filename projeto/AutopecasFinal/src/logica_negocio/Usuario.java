@@ -1,4 +1,4 @@
-package LN;
+package logica_negocio;
 public class Usuario {
     private String email;
     private String senha;

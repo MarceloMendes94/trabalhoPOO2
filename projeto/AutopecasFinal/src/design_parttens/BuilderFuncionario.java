@@ -1,9 +1,9 @@
 package design_parttens;
 
-import LN.Cpf;
-import LN.Data;
-import LN.Funcionario;
-import LN.Usuario;
+import logica_negocio.Cpf;
+import logica_negocio.Data;
+import logica_negocio.Funcionario;
+import logica_negocio.Usuario;
 import java.util.Date;
 
 public class BuilderFuncionario {

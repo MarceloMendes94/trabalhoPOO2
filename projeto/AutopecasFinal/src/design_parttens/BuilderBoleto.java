@@ -1,7 +1,7 @@
 package design_parttens;
 
-import LN.Boleto;
-import LN.Conta;
+import logica_negocio.Boleto;
+import logica_negocio.Conta;
 
 public class BuilderBoleto {
     private Boleto boleto;

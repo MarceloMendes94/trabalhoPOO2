@@ -1,8 +1,8 @@
 package design_parttens;
 
-import LN.Fabricante;
-import LN.Produto;
-import LN.TipoProduto;
+import logica_negocio.Fabricante;
+import logica_negocio.Produto;
+import logica_negocio.TipoProduto;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

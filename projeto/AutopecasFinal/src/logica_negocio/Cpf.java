@@ -1,4 +1,4 @@
-package LN;
+package logica_negocio;
 public class Cpf {
     private int d1;
     private int d2;

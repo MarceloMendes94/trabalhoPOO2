@@ -1,4 +1,4 @@
-package LN;
+package logica_negocio;
 public class Produto {
     private String altura;
     private String largura;

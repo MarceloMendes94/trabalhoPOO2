@@ -1,7 +1,7 @@
 package design_parttens;
 
-import LN.Fabricante;
-import LN.TipoProduto;
+import logica_negocio.Fabricante;
+import logica_negocio.TipoProduto;
 
 public interface ProdutosEcomerce {
     public void criarFabricante(String nome,String oem);

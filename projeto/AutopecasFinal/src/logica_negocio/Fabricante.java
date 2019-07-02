@@ -1,4 +1,4 @@
-package LN;
+package logica_negocio;
 
 public class Fabricante {
     private String nome;

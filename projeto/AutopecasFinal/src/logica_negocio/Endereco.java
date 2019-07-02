@@ -1,5 +1,5 @@
 
-package LN;
+package logica_negocio;
 public class Endereco {
     private String logradouro;
     private int cep;

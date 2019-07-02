@@ -1,10 +1,10 @@
 package design_parttens;
 
-import LN.Cliente;
-import LN.Cpf;
-import LN.Data;
-import LN.Endereco;
-import LN.Usuario;
+import logica_negocio.Cliente;
+import logica_negocio.Cpf;
+import logica_negocio.Data;
+import logica_negocio.Endereco;
+import logica_negocio.Usuario;
 
 
 public class BuilderCliente {

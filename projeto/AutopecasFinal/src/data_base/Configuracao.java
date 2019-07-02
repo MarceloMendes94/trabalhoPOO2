@@ -1,4 +1,4 @@
-package DB;
+package data_base;
 public class Configuracao {
     private String url;
     private String user;

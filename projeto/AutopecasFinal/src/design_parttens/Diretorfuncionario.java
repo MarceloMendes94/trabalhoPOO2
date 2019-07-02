@@ -1,6 +1,6 @@
 package design_parttens;
 
-import LN.Data;
+import logica_negocio.Data;
 
 public class Diretorfuncionario {
     private BuilderFuncionario funcionario = new BuilderFuncionario();

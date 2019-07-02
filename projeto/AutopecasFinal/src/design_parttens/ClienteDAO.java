@@ -1,7 +1,7 @@
 
 package design_parttens;
 
-import LN.Cliente;
+import logica_negocio.Cliente;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

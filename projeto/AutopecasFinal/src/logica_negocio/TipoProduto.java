@@ -1,4 +1,4 @@
-package LN;
+package logica_negocio;
 public enum TipoProduto {
     BOBINA(1),
     REGULADOR(2),

@@ -1,9 +1,9 @@
 
 package design_parttens;
 
-import LN.Fabricante;
-import LN.Produto;
-import LN.TipoProduto;
+import logica_negocio.Fabricante;
+import logica_negocio.Produto;
+import logica_negocio.TipoProduto;
 
 public class FabricaAbsProdutos implements ProdutosEcomerce{
     private Fabricante fabricante;
