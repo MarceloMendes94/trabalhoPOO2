@@ -16,6 +16,8 @@ imagem builder cliente
 
 imagem builder funcionario.
 
+imagem builder boleto.
+
 ## Padrão Fábrica Abstrata
 Implementa uma interface para criação de mais de um Objeto.
 Dentro do escopo esse padrão fui usado para criar fabricantes e produtos.
