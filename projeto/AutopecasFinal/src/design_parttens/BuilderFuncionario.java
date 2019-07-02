@@ -4,7 +4,6 @@ import logica_negocio.Cpf;
 import logica_negocio.Data;
 import logica_negocio.Funcionario;
 import logica_negocio.Usuario;
-import java.util.Date;
 
 public class BuilderFuncionario {
     private Cpf cpf;

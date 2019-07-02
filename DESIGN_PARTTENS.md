@@ -12,20 +12,19 @@ Esse padrão é composto por um Diretor e um Builder onde suas funções são:
 2. Dreitor cria os objetos na respectiva ordem.
 Dentro do escopo esse padrão fui usado para criar clientes e funcionários.
 
-imagem builder cliente
+![imagem builder cliente](imagens/Padroes_novos/builderClientes.jpg)
 
-imagem builder funcionario.
+![imagem builder funcionario](imagens/Padroes_novos/builderFuncionario.jpg)
 
-imagem builder boleto.
+![imagem builder boleto](imagens/Padroes_novos/builderBoleto.jpg)
 
 ## Padrão Fábrica Abstrata
 Implementa uma interface para criação de mais de um Objeto.
 Dentro do escopo esse padrão fui usado para criar fabricantes e produtos.
 
-imagem fabrica ABS
+![imagem fabrica ABS](imagens/Padroes_novos/fabricaAbsProdutos.jpg)
 
-## Template metodo
-Define um esqueleto abstrato de cóidgo e estrutura para ser herdado e implementado por seus Filhos.
-Dentro do escopo esse padrão fui usado para uma classe interna de construção de paginas WEB personalizadas.
+## DAO
+Usado para persistor dados dentro do banco de dados
 
-imagem fabrica ABS
+imagem DAO
