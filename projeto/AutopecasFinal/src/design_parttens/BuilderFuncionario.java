@@ -11,6 +11,7 @@ public class BuilderFuncionario {
     private Funcionario funcionario;
     private Data nascimento;
 
+
     public void criaCpf(int d1, int d2, int d3, int validado) {
         this.cpf = new Cpf(d1, d2, d3, validado);
     }
@@ -26,4 +27,9 @@ public class BuilderFuncionario {
     public void criarData(int dia, int mes, int ano) {
         this.nascimento= new Data(dia, mes, ano);
     }
+
+    public Funcionario getFuncionario() {
+        return funcionario;
+    }
+    
 }
