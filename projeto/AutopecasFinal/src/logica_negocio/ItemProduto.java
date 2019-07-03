@@ -1,5 +1,11 @@
+
 package logica_negocio;
-public class itemProduro {
+
+/**
+ *
+ * @author marcelo
+ */
+public class ItemProduto {
     private float valor;
     private Produto produto;
 
@@ -19,8 +25,10 @@ public class itemProduro {
         this.produto = produto;
     }
 
-    public itemProduro(float valor, Produto produto) {
+    public ItemProduto(float valor, Produto produto) {
         this.valor = valor;
         this.produto = produto;
     }
+
+    
 }
