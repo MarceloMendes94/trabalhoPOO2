@@ -4,7 +4,7 @@ A disciplina de Programação orientada ao objeto 2, apresentou o uso de padrôe
 O Uso de padrões de projeto, em sistemas grandes e complexos auxilia na manutenabilidade e desenvolvimento de código.
 Com base no diagrama UML a seguir será mostrado alguns padrôes escolhidos para cada situação.
 
-imagem projeto detalhado.
+![imagem projeto detalhado](imagens/Padroes_novos/projetoDetalhado.jpg)
 
 ## Padrão Builder 
 Esse padrão é composto por um Diretor e um Builder onde suas funções são:
@@ -27,4 +27,4 @@ Dentro do escopo esse padrão fui usado para criar fabricantes e produtos.
 ## DAO
 Usado para persistor dados dentro do banco de dados
 
-imagem DAO
+![imagem DAO](imagens/Padroes_novos/DAO.jpg)
