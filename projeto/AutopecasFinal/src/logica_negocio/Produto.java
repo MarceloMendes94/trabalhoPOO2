@@ -48,19 +48,19 @@ public class Produto {
         this.comprimento = comprimento;
     }
 
-    public String getDiametro_interno() {
+    public String getDiametroInterno() {
         return diametro_interno;
     }
 
-    public void setDiametro_interno(String diametro_interno) {
+    public void setDiametroInterno(String diametro_interno) {
         this.diametro_interno = diametro_interno;
     }
 
-    public String getDiametro_externo() {
+    public String getDiametroExterno() {
         return diametro_externo;
     }
 
-    public void setDiametro_externo(String diametro_externo) {
+    public void setDiametroExterno(String diametro_externo) {
         this.diametro_externo = diametro_externo;
     }
 
@@ -103,6 +103,4 @@ public class Produto {
     public void setTipo(TipoProduto tipo) {
         this.tipo = tipo;
     }
-    
-    
 }

@@ -9,7 +9,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 public class ClienteDAOTest {
     
-    ClienteDAO clienteDao;
+    private ClienteDAO clienteDao;
 
     @Before
     public void setUp() {
