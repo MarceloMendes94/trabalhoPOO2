@@ -89,7 +89,7 @@ public class ClienteDAO implements BaseDAO{
 
     @Override
     public void delete(String query) {
-     
+        System.out.println("ainda não esta implementado");
     }
     
     /**
